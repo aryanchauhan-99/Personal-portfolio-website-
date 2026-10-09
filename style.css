@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.3rem;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skill-badge {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.project-box {
+    background-color: #fdfdfd;
+    border-left: 4px solid #007bff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0 8px 8px 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #abc;
+    margin-top: 40px;
+}
