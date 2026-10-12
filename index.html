@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Premium Dynamic Portfolio</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript File -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Aryan Chauhan</h1>
+        <p>Full Stack Developer | Crafting Dynamic Web Experiences</p>
+
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank"
+               rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+            <a href="https://github.com" target="_blank"
+               rel="noopener noreferrer" class="social-btn">GitHub</a>
+        </div>
+    </header>
+
+    <button class="theme-btn" id="themeToggle"
+            type="button" title="Toggle Theme"
+            aria-label="Toggle dark mode">🌓</button>
+
+    <main>
+        <section class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a developer interested in modern web development.
+                I enjoy creating useful, attractive and functional websites.
+            </p>
+        </section>
+
+        <section class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-badge">HTML5</div>
+                <div class="skill-badge">CSS3</div>
+                <div class="skill-badge">JavaScript</div>
+                <div class="skill-badge">React.js</div>
+                <div class="skill-badge">Node.js</div>
+                <div class="skill-badge">MongoDB</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Projects</h2>
+
+            <div id="projectsContainer">
+                <!-- Projects JavaScript se add honge -->
+            </div>
+
+            <div class="add-project-form">
+                <h3>Add New Project</h3>
+
+                <form id="projectForm">
+                    <div class="form-group">
+                        <label for="projTitle">Project Title</label>
+                        <input type="text" id="projTitle"
+                               required placeholder="e.g. Student Management System">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="projDesc">Description</label>
+                        <textarea id="projDesc" rows="3" required
+                                  placeholder="Project description"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="projLink">Project Link (URL)</label>
+                        <input type="url" id="projLink"
+                               placeholder="https://github.com/username/project">
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Add Project
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aryan Chauhan | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
